@@ -1,3 +1,9 @@
+/* NAVBAR */
+.navbar {
+  /* background-color: #edb88b; */
+  background-color: #dde1e4;
+}
+
 /* HERO */
 #hero {
   background-image: url(./images/hero-bg.jpg);
@@ -7,5 +13,8 @@
 }
 
 .hero-overlay {
-  background-color: rgba(13, 202, 240, 0.5);
+  background-color: rgba(221, 225, 228, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
 }
