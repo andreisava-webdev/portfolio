@@ -6,6 +6,11 @@
   --clr-btn-hero: #ee5622;
 }
 
+/* TAGS */
+body {
+  overflow-x: hidden;
+}
+
 /* NAVBAR */
 .navbar {
   /* background-color: #edb88b; */
@@ -44,4 +49,20 @@
 .btn-hero:hover {
   border: 2px solid var(--clr-btn-hero) !important;
   color: var(--clr-btn-hero) !important;
+}
+
+/* ABOUT */
+#skills {
+  gap: 1rem;
+}
+
+#skills figure {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+}
+
+#skills figcaption {
+  font-weight: bold;
 }
