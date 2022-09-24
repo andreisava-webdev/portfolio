@@ -1,0 +1,11 @@
+/* HERO */
+#hero {
+  background-image: url(./images/hero-bg.jpg);
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-overlay {
+  background-color: rgba(13, 202, 240, 0.5);
+}
