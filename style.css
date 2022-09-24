@@ -66,3 +66,26 @@ body {
 #skills figcaption {
   font-weight: bold;
 }
+
+/* PORTFOLIO */
+#portfolio {
+  background-color: #dde1e4;
+}
+
+#portfolio .card {
+  width: 300px;
+  overflow: hidden;
+  transition: all 0.2s ease;
+}
+
+#portfolio .card:hover {
+  transform: scale(1.05);
+}
+
+#portfolio .card .img-fluid {
+  height: 200px;
+}
+
+#projects {
+  gap: 1rem;
+}
