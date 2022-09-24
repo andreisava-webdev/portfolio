@@ -89,3 +89,21 @@ body {
 #projects {
   gap: 1rem;
 }
+
+/* FOOTER */
+#footer {
+  background-color: #dde1e4;
+}
+
+.footer-socials {
+  display: flex;
+  gap: 1rem;
+}
+
+.footer-socials a {
+  color: #0f1a20;
+}
+
+.footer-socials a:hover {
+  opacity: 0.75;
+}
