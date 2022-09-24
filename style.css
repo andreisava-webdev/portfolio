@@ -1,3 +1,11 @@
+/* CUSTOM PROPERTIES */
+:root {
+  /* --clr-btn-hero: #f42c04; */
+  --clr-btn-hero: #01295f;
+  /* --clr-btn-hero: #437f97; */
+  --clr-btn-hero: #ee5622;
+}
+
 /* NAVBAR */
 .navbar {
   /* background-color: #edb88b; */
@@ -13,8 +21,27 @@
 }
 
 .hero-overlay {
-  background-color: rgba(221, 225, 228, 0.5);
+  background-color: rgba(221, 225, 228, 0.8);
   position: absolute;
   top: 0;
   left: 0;
+}
+
+.hero-title {
+  color: #0f1a20;
+}
+
+.hero-info {
+  font-size: 1.2rem;
+}
+
+.btn-hero {
+  background-color: var(--clr-btn-hero);
+  border: 2px solid var(--clr-btn-hero);
+  color: #fff;
+}
+
+.btn-hero:hover {
+  border: 2px solid var(--clr-btn-hero) !important;
+  color: var(--clr-btn-hero) !important;
 }
